@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
-
+from youtube_transcript_api import YouTubeTranscriptApi
+import google.generativeai as genai
 app = Flask(__name__)
 
 @app.route('/summarize', methods=['POST'])
@@ -33,8 +34,7 @@ def summarize():
         return jsonify({'error': 'No URL provided'}), 400
     
     try:
-        from youtube_transcript_api import YouTubeTranscriptApi
-        import google.generativeai as genai
+
         # Define the video ID
         API_KEY="AIzaSyBwCqWaGW5ndo_zX-n3sTXMMI9L1di_KbA"
         genai.configure(api_key=API_KEY)
