@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Summary Generator",
+    "version": "1.0",
+    "description": "Generates summaries for YouTube videos",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage","http://127.0.0.1:5000/summarize"
+    ],
+    "host_permissions": [
+        "*://www.youtube.com/*", "http://127.0.0.1:5000/*"
+      ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+   
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
