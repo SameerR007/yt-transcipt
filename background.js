@@ -9,7 +9,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         files: ['content.js']
       }, () => {console.log("here1")
         chrome.storage.local.get('videoUrl', (data) => {
-          fetch('http://127.0.0.1:5000/summarize', {
+          fetch('https://yt-transcipt.onrender.com/summarize', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
