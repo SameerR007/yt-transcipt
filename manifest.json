@@ -6,7 +6,7 @@
     "permissions": [
       "activeTab",
       "scripting",
-      "storage","https://sameerrawat07-yt-transcript.hf.space/summarize"
+      "https://sameerrawat07-yt-transcript.hf.space/summarize'"
     ],
     "host_permissions": [
         "*://www.youtube.com/*","https://sameerrawat07-yt-transcript.hf.space/"

@@ -7,7 +7,22 @@ document.getElementById('generate').addEventListener('click', () => {
  
       } else {
         console.log("Error fetching summary")
-        document.getElementById('status').innerText = 'Error: ' + response.error;
+        if(response.error=="Failed to fetch"){
+          document.getElementById('status').innerText = 'Error:';
+          document.getElementById('summary').innerHTML = `
+                Summary could not be generated. 
+                Can you please re-run the space at 
+                <a href="https://huggingface.co/spaces/sameerrawat07/yt-transcript" target="_blank">
+                    https://huggingface.co/spaces/sameerrawat07/yt-transcript
+                </a> 
+                and try again. Thanks!
+            `;
+            
+        }
+        else{
+          document.getElementById('status').innerText = 'Error transcripting this video. Please try another one.';
+        }
+        
 
       }
     });

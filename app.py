@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify
-
+import os
+from dotenv import load_dotenv
+load_dotenv() 
 app = Flask(__name__)
 
 @app.route('/summarize', methods=['POST'])
@@ -12,7 +14,7 @@ def summarize():
     try:
         import google.generativeai as genai
         # Define the video ID
-        API_KEY="AIzaSyBwCqWaGW5ndo_zX-n3sTXMMI9L1di_KbA"
+        API_KEY=os.getenv("API_KEY")
         genai.configure(api_key=API_KEY)
 
         # Combine all the transcript text into a single string
