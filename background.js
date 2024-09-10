@@ -23,7 +23,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             console.log(transcript);  // This will print the transcript
 
             // Send the transcript to the backend service for summarization
-            const response = await fetch('http://127.0.0.1:5000/summarize', {
+            const response = await fetch('https://sameerrawat07-yt-transcript.hf.space/summarize', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',

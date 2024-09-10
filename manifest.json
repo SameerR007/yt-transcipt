@@ -6,10 +6,10 @@
     "permissions": [
       "activeTab",
       "scripting",
-      "storage","http://127.0.0.1:5000/summarize"
+      "storage","https://sameerrawat07-yt-transcript.hf.space/summarize"
     ],
     "host_permissions": [
-        "*://www.youtube.com/*","http://127.0.0.1:5000/"
+        "*://www.youtube.com/*","https://sameerrawat07-yt-transcript.hf.space/"
       ],
     "background": {
       "service_worker": "background.js",
