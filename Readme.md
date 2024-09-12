@@ -1,11 +1,12 @@
 # YouTube Summary Generator
 
+**!!! NOTE: Most of the material in this extension has been written with the help of ChatGPT 3.5. I have focused on debugging and constructing the workflow based on the suggestions provided by the AI. Special thanks to OpenAI's GPT-3.5 for assistance in building this project.**
+
 ![Extension Icon](icon_128x128.png)
 
 ![Extension Icon](screenshots/image-1280x800%20(3).jpg)
 
 ---
-**!!! NOTE: Most of the material in this extension has been written with the help of ChatGPT 3.5. I have focused on debugging and constructing the workflow based on the suggestions provided by the AI. Special thanks to OpenAI's GPT-3.5 for assistance in building this project.**
 
 Easily generate summaries for YouTube videos with a single click. This Chrome extension extracts the video's transcript and uses AI to provide a concise summary directly in your browser. It helps users quickly understand the content of YouTube videos without watching them in full.
 
