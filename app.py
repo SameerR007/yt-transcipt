@@ -6,10 +6,9 @@ app = Flask(__name__)
 
 @app.route('/summarize', methods=['POST'])
 def summarize():
-    print("flask running")
+    print("flask running1")
     data = request.json
     video_transcript = data.get('transcript')
-    print(video_transcript)
     
     try:
         import google.generativeai as genai
@@ -19,11 +18,10 @@ def summarize():
 
         # Combine all the transcript text into a single string
         transcript_text = " ".join([entry['text'] for entry in video_transcript])
-        print(transcript_text)
         model = genai.GenerativeModel("gemini-1.5-flash")
-        print("*************")
+        print("flask running2")
         response = model.generate_content(f"Summarize the youtube content given below(Just use plain text)\n{transcript_text}")
-        print(response.text)
+        print("flask running3")
         return jsonify({'summary': response.text})
     except Exception as e:
         return jsonify({'error': str(e)}), 500
