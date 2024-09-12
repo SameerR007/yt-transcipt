@@ -23,15 +23,7 @@ Easily generate summaries for YouTube videos with a single click. This Chrome ex
 
 ## Installation
 
-1. Download the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/youtube-summary-generator/ldjclojdhjajmgjffbmjadpfhkdpenll).
-2. Alternatively, clone this repository and load it as an unpacked extension in Chrome:
-   - Clone the repository: 
-     ```bash
-     git clone https://github.com/SameerR007/yt-transcipt.git
-     ```
-   - Open Chrome and navigate to `chrome://extensions/`.
-   - Enable **Developer mode** (top-right corner).
-   - Click **Load unpacked** and select the extension directory.
+Download the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/youtube-summary-generator/ldjclojdhjajmgjffbmjadpfhkdpenll).
 
 ## Permissions
 
