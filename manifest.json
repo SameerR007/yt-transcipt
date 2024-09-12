@@ -3,6 +3,10 @@
     "name": "YouTube Summary Generator",
     "version": "1.0",
     "description": "Generates summaries for YouTube videos",
+    "icons":{
+        "128": "icon_128x128.png"
+      }
+    ,
     "permissions": [
       "activeTab",
       "scripting",
@@ -16,7 +20,10 @@
       "type":"module"    
     },
     "action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icon_128x128.png"
+      }
    
     },
     "content_scripts": [
