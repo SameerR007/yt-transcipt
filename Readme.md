@@ -3,9 +3,7 @@
 Easily generate summaries for YouTube videos with a single click. This Chrome extension extracts the video's transcript and uses AI to provide a concise summary directly in your browser. It helps users quickly understand the content of YouTube videos without watching them in full.
 
 ![Extension Icon](icon_128x128.png)
-![Extension Icon](screenshots/image-1280x800.jpg)
-![Extension Icon](screenshots/image-1280x800%20(1).jpg)
-![Extension Icon](screenshots/image-1280x800%20(2).jpg)
+
 ![Extension Icon](screenshots/image-1280x800%20(3).jpg)
 
 ## Features
