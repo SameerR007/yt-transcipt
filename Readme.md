@@ -19,7 +19,7 @@ Easily generate summaries for YouTube videos with a single click. This Chrome ex
 
 ## Installation
 
-1. Download the extension from the [Chrome Web Store](#) (https://chromewebstore.google.com/detail/youtube-summary-generator/ldjclojdhjajmgjffbmjadpfhkdpenll).
+1. Download the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/youtube-summary-generator/ldjclojdhjajmgjffbmjadpfhkdpenll).
 2. Alternatively, clone this repository and load it as an unpacked extension in Chrome:
    - Clone the repository: 
      ```bash
@@ -39,4 +39,4 @@ This extension requires the following permissions:
 
 ## Privacy Policy
 
-The extension does not store or retain any personal data. The video URL is used only temporarily during the session to generate the summary and is not logged or saved. For more information, please see the [Privacy Policy](https://github.com/yourusername/youtube-summary-generator/blob/main/privacy-policy.md).
+The extension does not store or retain any personal data. The video URL is used only temporarily during the session to generate the summary and is not logged or saved. For more information, please see the [Privacy Policy](https://huggingface.co/spaces/sameerrawat07/yt-transcript/blob/main/Privacy_Policy.md).
